@@ -1,0 +1,14 @@
+{
+  "name": "git-3.3-nodejs",
+  "version": "1.0.0",
+  "description": "Add this to index.js\r const http = require('http');\r const hostname = 'localhost';\r const port = 3700;\r const server = http.createServer((req, res) => {\r  console.log(req.headers);\r  res.statusCode = 200;\r  res.end('<html><body><h1>Hello, World!</h1></body></html');\r })\r server.listen(port, hostname);",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
